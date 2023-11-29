@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Random;
 
-class Patient {
+public class Patient {
     String name;
     String color;
 
@@ -21,9 +21,9 @@ class Patient {
     public String toString() {
         return name + " (" + color + ")";
     }
-}
 
-public class EmergencyRoom {
+
+
     public static void main(String[] args) {
         Deque<Patient> emergencyQueue = new ArrayDeque<>();
         Scanner scanner = new Scanner(System.in);
